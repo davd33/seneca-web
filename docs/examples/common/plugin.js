@@ -7,6 +7,12 @@ module.exports = function plugin () {
     done(null, {ok: true})
   })
 
+  seneca.add('role:todo,cmd:test', (msg, done) => {
+    let name = msg.args.params.name
+
+    done(null, {ok: true, name: name})
+  })
+
   seneca.add('role:todo,cmd:edit', (msg, done) => {
     var rep = msg.response$
 

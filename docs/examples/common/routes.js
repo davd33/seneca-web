@@ -8,6 +8,10 @@ module.exports = [
       list: true,
       edit: {
         GET: true
+      },
+      test: {
+        POST: true,
+        suffix: '/:name'
       }
     }
   },
