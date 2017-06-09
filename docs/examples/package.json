@@ -15,6 +15,7 @@
     "request": "^2.81.0",
     "seneca-web": "^2.0.0",
     "seneca-web-adapter-connect": "^1.0.3",
-    "seneca-web-adapter-express": "^1.0.2"
+    "seneca-web-adapter-express": "^1.0.2",
+    "seneca-web-adapter-hapi": "^1.0.2"
   }
 }
