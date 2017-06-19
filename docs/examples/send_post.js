@@ -20,9 +20,9 @@ Req.get(`${url}/todo/list`, (err, res) => {
 
       console.log(`post on: ${url}/todo/test/myName`)
       Req.post(
-        `${url}/todo/test`,
+        `${url}/todo/test/davd`,
         {
-          user: "davd"
+          json: true
         },
         (err, res) => {
           if (err) console.log(err)
